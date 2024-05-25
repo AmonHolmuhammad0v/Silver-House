@@ -1,0 +1,275 @@
+@import url(./fonts.css);
+@import url(./usual.css);
+
+/* header */
+
+.nav {
+    background: #282828;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.nav__logo {
+    width: 100px;
+    padding: 6px 15px
+}
+
+.nav__link {
+    font-family: "Montserrat";
+    font-size: 20px; 
+    color: #fff;
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+.nav__list {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.nav__buttons-list {
+    display: flex;
+}
+
+.nav__buttons-link {
+    padding: 0 12.5px;
+}
+
+.official__title {
+    font-family: "Prosto_One";
+    font-size: 100px;
+    line-height: 75%;
+    color: #fff;
+    padding: 38px;
+}
+
+.official {
+    background: url(../img/Header.png) no-repeat center center / cover;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.official__btn {
+    padding: 14px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 500;
+    max-width: 200px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+}
+
+.texts {
+    text-align: center;
+}
+
+/* header */
+
+/* main */
+
+.main {
+    background: #151515;
+}
+
+.airpods1 .container {
+    display: flex;
+    padding: 50px;
+}
+
+.text {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    width: 538px;
+    padding: 0 15px;
+
+}
+
+.text1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    width: 333px;
+    padding: 0 15px;
+    margin-right: 60px;
+    text-align: left;
+}
+
+.text2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    width: 333px;
+    padding: 0 15px;
+    margin-left: 60px;
+}
+
+.airpods1__img {
+    padding: 0 15px;
+}
+
+.airpods2 .container {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+.airpods3__img {
+    background: url(../img/airpods3.png);
+    min-width: 268px;
+    min-height: 375px;
+     display: flex;
+     justify-content: space-between;
+    /* gap: 20px; */
+    position: relative;
+
+
+}
+
+.airpods3__img:before {
+    content: "";
+    background: #fff;
+    height: 1px;
+    width: 61px;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+}
+
+.airpods3__img:after { 
+    position: absolute;
+    content: "";
+    background: #fff;
+    height: 1px;
+    width: 61px;
+    top: 50%;
+    left: 100%;
+}
+
+.airpods3 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    background: #fff;
+    border-radius: 6px;
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px 58px; */
+
+    width: 100%;
+    padding: 15px 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-title {
+    font-family: "Montserrat";
+    /* font-weight: 700; */
+    font-size: 20px;
+    color: #000;
+}
+
+.card-price {
+    /* font-weight: 400; */
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: "Montserrat";
+    /* padding: 0 1px; */
+    /* padding-bottom:20px ; */
+}
+
+.card-img {
+    /* padding: 10px 0; */
+    max-height: 200px;
+}
+
+.card-btn {
+    max-width: 140px;
+    width: 100%;
+    color: #fff;
+    background: #151515;
+    padding: 7px;
+    text-align: center;
+    /* border: none; */
+    /* outline: none; */
+    /* cursor: pointer; */
+    font-weight: 700;
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+.cards {
+    padding: 55px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* main */
+
+/* footer */
+
+.footer {
+    background: #282828;
+    display: flex;
+    padding-top:81px ;
+    padding-bottom: 79px;
+}
+.nav__logo {
+    width: 100px;
+    padding: 6px 15px
+}
+
+.nav__link {
+    font-family: "Montserrat";
+    font-size: 20px; 
+    text-align: right; 
+    color: #fff;
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+.nav__list {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.nav__buttons-list {
+    display: flex;
+}
+
+.nav__buttons-link {
+    padding: 0 12.5px;
+}
